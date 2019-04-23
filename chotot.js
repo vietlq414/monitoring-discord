@@ -45,7 +45,7 @@ client.on('ready', () => {
 
         cache.set(ad.ad_id, true)
         let image = ad.image || "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
-        client.channels.get("534396349412540426").send(`
+        client.channels.get("570182669229621258").send(`
           ===============================================\n**${ad.subject}**\n***${ad.price_string}***\n*${ad.area_name} - ${ad.region_name}*\n*https://nha.chotot.com/${ad.list_id}.htm*
         `, {
           files: [`${image}?file=file.png`]
@@ -69,4 +69,4 @@ client.on('message', msg => {
   }
 });
 
-client.login('NTM0Mzk2NDk0NDA5NjI5Njk3.Dx4_TQ.rdIr-wVhjnBLTyGZEttR1A51kAc');
+client.login('2yIm-4Tdy6UyeOyLct84xEnjURGgaSu4');
